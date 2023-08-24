@@ -1,0 +1,23 @@
+https://github.com/matiasmza1/TallerGit.git
+
+PS C:\INCuyo\TallerGit> git init
+Initialized empty Git repository in C:/INCuyo/TallerGit/.git/
+PS C:\INCuyo\TallerGit> git add .
+PS C:\INCuyo\TallerGit> git commit -m "primer commit"
+[master (root-commit) 1c13ec4] primer commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 HTML/index.html
+PS C:\INCuyo\TallerGit> git branch -M main
+PS C:\INCuyo\TallerGit> git remote add origin https://github.com/matiasmza1/TallerGit.git
+PS C:\INCuyo\TallerGit> git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 248 bytes | 248.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/matiasmza1/TallerGit.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\INCuyo\TallerGit>
+
+echo "" >index.html
+echo "" >git.txt

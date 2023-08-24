@@ -4,3 +4,4 @@
 - Listar archivos y carpetas: ls / dir
 - Crear un archivo txt que contenga un hola mundo dentro: echo "Hola mundo" > hola.txt
 - Ver el contenido de un txt: cat hola.txt
+- 

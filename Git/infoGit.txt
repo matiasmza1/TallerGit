@@ -1,6 +1,7 @@
-git init
-git add
-git commit -m
+git init (Iniciamos GIT en la carpeta donde esta el proyecto)
+git add (Añadimos todos los archivos para el commit)
+git commit -m "" (Hacemos el primer commit)
 git branch -M main
-git remote add origin
-git push -u origin main
+git remote add origin 
+git push -u origin main (subimos al repositorio)
+git status (Lista un estado actual del repositorio con lista de archivos modificados o agregados)
